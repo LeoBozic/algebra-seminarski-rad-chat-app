@@ -82,6 +82,8 @@ function LoginInput({ logIn }) {
             display: "flex",
             flexWrap: "wrap",
             justifyContent: "center",
+            maxHeight: "300px",
+            overflow: "auto",
           }}
         >
           {avatars.map((arrAvatar, index) => (
